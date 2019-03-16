@@ -35,7 +35,7 @@ void setup() {
   }
 
   WiFi.mode(WIFI_STA);
-  WiFiMulti.addAP("Rodrigo", "12345678");
+  WiFiMulti.addAP("id", "senha");
 
 }
 
