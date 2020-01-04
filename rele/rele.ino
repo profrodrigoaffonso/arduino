@@ -67,14 +67,14 @@ void loop(){
           // O módulo relê funciona ao contrário dos leds: LOW -> Liga, HIGH -> Desliga
           if(readString.indexOf("?ledon") > 0)
           {
-            beep(9, a, 10000);
+           // beep(9, a, 10000);
             digitalWrite(Pin, LOW);
           }
   
           if(readString.indexOf("?ledoff") > 0)
           {
             digitalWrite(Pin, HIGH);
-            beep(9, b, 1000);
+           // beep(9, b, 1000);
           }        
           
           client.stop();
